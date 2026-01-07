@@ -21,7 +21,7 @@ export default function Header() {
                 <div className="max-w-7xl px-4 py-4 flex items-center justify-between">
                     {/* LOGO */}
                     <div className="flex items-center gap-2 font-bold text-green-700 text-xl">
-                        KamayaKya
+                        Stocks Tree
                     </div>
 
                     {/* DESKTOP MENU */}

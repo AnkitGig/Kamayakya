@@ -1,4 +1,5 @@
 import React from "react";
+import Typewriter from "./Typewriter";
 
 export default function Home1() {
     return (
@@ -17,10 +18,15 @@ export default function Home1() {
                         Grow your <br />
                         money by <br />
                         investing in{" "}
-                        <span className="text-green-700">
-                            potential <br /> Multibaggers
-                        </span>
-                        <span className="text-green-700"> |</span>
+                        <Typewriter
+                            texts={[
+                                "SME, Microcap and Smallcap stocks",
+                                "SME Stocks",
+                                "Microcap Stocks",
+                                "Smallcap Stocks",
+                            ]}
+                            className="text-green-700"
+                        />
                     </h1>
 
 
