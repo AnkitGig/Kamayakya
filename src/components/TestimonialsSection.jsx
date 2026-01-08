@@ -40,7 +40,7 @@ const newsItems = [
 
 const TestimonialsSection = () => {
   return (
-    <section className="relative py-24 bg-gradient-to-b from-gray-50 to-white overflow-hidden">
+    <section className="relative  bg-gradient-to-b from-gray-50 to-white overflow-hidden">
       {/* ================= HEADING ================= */}
       <div className="max-w-7xl mx-auto px-4 text-center mb-16">
         <p className="text-orange-500 text-sm font-semibold tracking-widest mb-2">
@@ -75,8 +75,8 @@ const TestimonialsSection = () => {
       </div>
 
       {/* ================= EXTRA DOWN CONTENT ================= */}
-      <div className="mt-32 flex justify-center">
-        <div className="bg-gradient-to-r from-[#042f2e] via-[#064e4f] to-[#042f2e] text-white rounded-3xl px-10 py-12 max-w-4xl text-center shadow-2xl">
+      <div className="mt-10 flex justify-center px-4 max-w-6xl mx-auto px-4">
+        <div className="bg-gradient-to-r from-[#042f2e] via-[#064e4f] to-[#042f2e] text-white rounded-3xl px-10 py-12 max-w-6xl text-center shadow-2xl ">
           <p className="text-orange-400 text-sm tracking-widest mb-3">
             FEATURED IN THE NEWS
           </p>
@@ -86,7 +86,7 @@ const TestimonialsSection = () => {
             perform like Mayank Yadav
           </h3>
 
-          <div className="flex flex-wrap justify-center gap-4">
+          <div className="flex flex-wrap justify-center gap-10">
             {newsItems.map((item, i) => (
               <div
                 key={i}
