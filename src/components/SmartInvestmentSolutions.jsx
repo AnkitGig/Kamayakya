@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function SmartInvestmentSolutions() {
   const logos = Array.from({ length: 20 }).map(
     (_, i) => `/assets/logos/logo${i + 1}.png`
@@ -15,7 +13,6 @@ export default function SmartInvestmentSolutions() {
   return (
     <section className="bg-[#062f2e] py-16 md:py-20 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
-        {/* Heading */}
         <p className="text-center text-orange-400 text-xs tracking-widest mb-2">
           SERVICES
         </p>
@@ -30,14 +27,7 @@ export default function SmartInvestmentSolutions() {
             {/* LOGO SLIDER */}
             <div className="space-y-3 overflow-hidden mb-6">
               {rows.map((row, idx) => (
-                <div
-                  key={idx}
-                  className={`
-                    relative overflow-hidden
-                    ${idx > 1 ? "hidden md:block" : ""}
-                    ${idx > 2 ? "hidden lg:block" : ""}
-                  `}
-                >
+                <div key={idx}>
                   <div
                     className={`marquee-track ${
                       row.dir === "left" ? "marquee-left" : "marquee-right"

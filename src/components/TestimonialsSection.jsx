@@ -53,7 +53,7 @@ const TestimonialsSection = () => {
 
       {/* ================= TESTIMONIALS GRID ================= */}
       <div className="max-w-6xl mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-2 gap-8">
           {testimonials.map((item, i) => (
             <div key={i} className="bg-white rounded-3xl shadow-xl p-10">
               <p className="text-gray-600 leading-relaxed mb-8">{item.text}</p>
