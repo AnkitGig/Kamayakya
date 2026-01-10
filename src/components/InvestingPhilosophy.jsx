@@ -137,7 +137,27 @@ export default function InvestingPhilosophy() {
         </div>
 
         {/* Cards */}
-      
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          {DATA[activeTab].map((item, index) => (
+            <div
+              key={index}
+              className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow
+             flex flex-col items-center text-center"
+            >
+              <img
+                src={IMG_MAP[activeTab][index]}
+                alt={item.title}
+                className="w-40 h-40 object-contain rounded-lg mb-4"
+              />
+
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                {item.title}
+              </h3>
+
+              <p className="text-gray-600">{item.description}</p>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );
