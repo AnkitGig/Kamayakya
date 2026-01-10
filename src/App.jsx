@@ -3,6 +3,7 @@ import HomePage from "./pages/HomePage";
 import Header from "./components/Header";
 
 
+
 export default function App() {
   return (
     <BrowserRouter>
@@ -10,8 +11,6 @@ export default function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
       </Routes>
-
-      {/* <Footer /> */}
     </BrowserRouter>
   );
 }

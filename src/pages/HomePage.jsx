@@ -14,16 +14,16 @@ import AboutUs from '../components/AboutUs'
 function HomePage() {
   return (
     <>
-   <Home1/>
-   <LogoSlider/>  
+   <section id="home"><Home1/></section>
+   <LogoSlider/>
    <SmartInvestmentSolutions/>
    <InvestingPhilosophy/>
-   <PricingSection/>
+   <section id="pricing"><PricingSection/></section>
    <PerformanceSection/>
-   <TrustSection/>
+   <section id="why-trust"><TrustSection/></section>
    <TestimonialsSection/>
-   <AboutUs/>
-   <ContactUs/>
+   <section id="about"><AboutUs/></section>
+   <section id="contact"><ContactUs/></section>
    <Footer/>
     </>
   )

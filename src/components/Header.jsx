@@ -68,10 +68,10 @@ export default function Header() {
                             )}
                         </div> */}
 
-                        <a>Pricing</a>
-                        <a>About us</a>
-                        <a href="">Contact us</a>
-                        <a href="">Why trust us?</a>
+                        <a href="#pricing">Pricing</a>
+                        <a href="#about">About us</a>
+                        <a href="#contact">Contact us</a>
+                        <a href="#why-trust">Why trust us?</a>
                         {/* <a>Track Record</a> */}
                         {/* <a>SME Corner</a> */}
                         {/* <a>Blogs</a> */}
@@ -143,8 +143,8 @@ export default function Header() {
                                 </div>
                             )} */}
 
-                            <p>Pricing</p>
-                            <p>About us</p>
+                            <a href="#pricing" onClick={() => setMobileOpen(false)} className="block">Pricing</a>
+                            <a href="#about" onClick={() => setMobileOpen(false)} className="block">About us</a>
                             {/* <p>Track Record</p>
                             <p>SME Corner</p>
                             <p>Stocks to Buy</p>
