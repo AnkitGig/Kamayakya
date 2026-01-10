@@ -22,10 +22,12 @@ export default function Header() {
 
                 {/* NAVBAR */}
                 <header className="bg-[#f4fffd] border-b">
-                <div className="max-w-7xl px-4 py-4 flex items-center justify-between">
+                <div className="max-w-7xl px-4  flex items-center justify-between">
                     {/* LOGO */}
-                    <div className="flex items-center gap-2 font-bold text-green-700 text-xl">
-                        Finvesta Research
+                    <div className="flex items-center gap-2">
+                        <a href="/">
+                            <img src="/assets/logo-removebg-preview.png" alt="Finvesta Research" className="h-15 w-auto" />
+                        </a>
                     </div>
 
                     {/* DESKTOP MENU */}
@@ -119,7 +121,7 @@ export default function Header() {
                     <div className="w-[320px] bg-white h-full p-5 overflow-y-auto">
                         <div className="flex justify-between items-center mb-6">
                             <span className="font-bold text-green-700 text-lg">
-                                KamayaKya
+                               Finvesta Research
                             </span>
                             <button onClick={() => setMobileOpen(false)}>✕</button>
                         </div>

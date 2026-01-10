@@ -112,6 +112,7 @@ export default function PricingSection() {
 
                             {/* Button */}
                             <button
+                                onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSeisbk-bD_BWws1GLv9_7gldFDF8-dzouzHZpeoBXkKkVBS-g/viewform', '_blank')}
                                 className={`mt-8 w-full py-3 rounded-xl font-semibold transition ${plan.highlight
                                         ? "bg-orange-500 text-white hover:bg-orange-600"
                                         : "bg-gray-900 text-white hover:bg-gray-800"
@@ -134,7 +135,7 @@ export default function PricingSection() {
                         </p>
                     </div>
 
-                    <button className="w-full sm:w-auto px-6 py-3 bg-gradient-to-r from-emerald-500 to-cyan-500 text-white rounded-xl font-semibold">
+                    <button  onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSeisbk-bD_BWws1GLv9_7gldFDF8-dzouzHZpeoBXkKkVBS-g/viewform', '_blank')} className="w-full sm:w-auto px-6 py-3 bg-gradient-to-r from-emerald-500 to-cyan-500 text-white rounded-xl font-semibold">
                         Explore Opportunities
                     </button>
                 </div>

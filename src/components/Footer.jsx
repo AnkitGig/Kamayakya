@@ -18,30 +18,25 @@ export default function Footer() {
             <h4 className="text-white font-semibold mb-4">Company</h4>
             <ul className="space-y-3 text-sm">
               <li>
-                <a href="#" className="hover:text-white transition">
+                <a href="/#about" className="hover:text-white transition">
                   About Us
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition">
+                <a href="/#pricing" className="hover:text-white transition">
                   Pricing
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition">
+                <a href="/#contact" className="hover:text-white transition">
                   Contact
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-white transition">
-                  Careers
                 </a>
               </li>
             </ul>
           </div>
 
           {/* Resources */}
-          <div>
+          {/* <div>
             <h4 className="text-white font-semibold mb-4">Resources</h4>
             <ul className="space-y-3 text-sm">
               <li>
@@ -65,7 +60,7 @@ export default function Footer() {
                 </a>
               </li>
             </ul>
-          </div>
+          </div> */}
 
           {/* Legal */}
           <div>
@@ -113,7 +108,7 @@ export default function Footer() {
         {/* Bottom Section */}
         <div className="py-6 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-gray-400">
-            © {new Date().getFullYear()} YourBrand. All rights reserved.
+            © {new Date().getFullYear()} Finvesta Research. All rights reserved.
           </p>
 
           {/* Social Icons */}

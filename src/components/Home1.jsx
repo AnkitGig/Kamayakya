@@ -11,7 +11,7 @@ export default function Home1() {
                 {/* LEFT CONTENT */}
                 <div>
                     <span className="inline-block mb-4 px-4 py-1 border border-green-400 rounded-full text-sm text-green-700 bg-white">
-                        SEBI Registered: INH000009843
+                        SEBI Registered: INH000024310
                     </span>
 
                     <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
@@ -31,9 +31,13 @@ export default function Home1() {
 
 
 
-                    <button className="mt-8 bg-[#0b5d50] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#094d43] transition">
-                        Get Started – it's Free
-                    </button>
+                   <button
+  onClick={() => window.open("https://docs.google.com/forms/d/e/1FAIpQLSeisbk-bD_BWws1GLv9_7gldFDF8-dzouzHZpeoBXkKkVBS-g/viewform", "_blank")}
+  className="mt-8 bg-[#0b5d50] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#094d43] transition"
+>
+  Get Started – it's Free
+</button>
+
                 </div>
 
                 {/* RIGHT ILLUSTRATION + STATS */}
