@@ -7,8 +7,9 @@ export default function Header() {
 
     return (
         <>
-            {/* TOP OFFER BAR */}
-            <div className="bg-gray-900 text-white text-sm overflow-hidden">
+            <div className="sticky top-0 z-50">
+                {/* TOP OFFER BAR */}
+                <div className="bg-gray-900 text-white text-sm overflow-hidden">
                 <div className="whitespace-nowrap animate-marquee px-4 py-2">
                     🥳 NEW YEAR OFFER: Flat <b>26% off</b> — use code{" "}
                     <span className="text-green-400 font-bold">NY26</span>. Limited time
@@ -19,8 +20,8 @@ export default function Header() {
                 </div>
             </div>
 
-            {/* NAVBAR */}
-            <header className="bg-[#f4fffd] border-b relative z-50">
+                {/* NAVBAR */}
+                <header className="bg-[#f4fffd] border-b">
                 <div className="max-w-7xl px-4 py-4 flex items-center justify-between">
                     {/* LOGO */}
                     <div className="flex items-center gap-2 font-bold text-green-700 text-xl">
@@ -102,7 +103,8 @@ export default function Header() {
                         ☰
                     </button>
                 </div>
-            </header>
+                </header>
+            </div>
 
             {/* MOBILE DRAWER */}
             {mobileOpen && (
@@ -145,6 +147,8 @@ export default function Header() {
 
                             <a href="#pricing" onClick={() => setMobileOpen(false)} className="block">Pricing</a>
                             <a href="#about" onClick={() => setMobileOpen(false)} className="block">About us</a>
+                            <a href="#contact" onClick={() => setMobileOpen(false)} className="block">Contact us</a>
+                            <a href="#why-trust" onClick={() => setMobileOpen(false)} className="block">Why trust us?</a>
                             {/* <p>Track Record</p>
                             <p>SME Corner</p>
                             <p>Stocks to Buy</p>
