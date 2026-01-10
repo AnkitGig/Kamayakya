@@ -13,6 +13,9 @@ export default function Header() {
                     🥳 NEW YEAR OFFER: Flat <b>26% off</b> — use code{" "}
                     <span className="text-green-400 font-bold">NY26</span>. Limited time
                     (till 7th Jan 26). T&Cs apply.
+                      🥳 NEW YEAR OFFER: Flat <b>26% off</b> — use code{" "}
+                    <span className="text-green-400 font-bold">NY26</span>. Limited time
+                    (till 7th Jan 26). T&Cs apply.
                 </div>
             </div>
 
@@ -27,7 +30,7 @@ export default function Header() {
                     {/* DESKTOP MENU */}
                     <nav className="hidden lg:flex items-center gap-8 font-medium text-gray-800">
                         {/* ABOUT US */}
-                        <div
+                        {/* <div
                             className="relative"
                             onMouseEnter={() => setAboutOpen(true)}
                             onMouseLeave={() => setAboutOpen(false)}
@@ -63,30 +66,33 @@ export default function Header() {
                                     ))}
                                 </div>
                             )}
-                        </div>
+                        </div> */}
 
                         <a>Pricing</a>
-                        <a>Track Record</a>
-                        <a>SME Corner</a>
-                        <a>Blogs</a>
-
+                        <a>About us</a>
+                        <a href="">Contact us</a>
+                        <a href="">Why trust us?</a>
+                        {/* <a>Track Record</a> */}
+                        {/* <a>SME Corner</a> */}
+                        {/* <a>Blogs</a> */}
+{/* 
                         <div className="flex items-center gap-1">
                             VIP Updates
                             <span className="bg-red-500 text-white text-xs px-2 rounded-full">
                                 NEW
                             </span>
-                        </div>
+                        </div> */}
                     </nav>
 
                     {/* DESKTOP ACTIONS */}
-                    <div className="hidden lg:flex items-center gap-4">
+                    {/* <div className="hidden lg:flex items-center gap-4">
                         <button className="border border-orange-400 text-orange-500 px-4 py-2 rounded-lg hover:bg-orange-50">
                             Stocks to Buy
                         </button>
                         <button className="bg-[#0b5d50] text-white px-5 py-2 rounded-lg flex items-center gap-2">
                             👤 Login
                         </button>
-                    </div>
+                    </div> */}
 
                     {/* MOBILE HAMBURGER */}
                     <button
@@ -118,14 +124,14 @@ export default function Header() {
 
                         {/* MENU */}
                         <div className="space-y-4 text-gray-700">
-                            <button
+                            {/* <button
                                 onClick={() => setMobileAbout(!mobileAbout)}
                                 className="w-full flex justify-between"
                             >
                                 About Us
                                 <span>{mobileAbout ? "−" : "+"}</span>
-                            </button>
-
+                            </button> */}
+{/* 
                             {mobileAbout && (
                                 <div className="ml-4 space-y-2 text-sm text-gray-500">
                                     <p>Our Philosophy</p>
@@ -135,31 +141,32 @@ export default function Header() {
                                     <p>Hot Stocks</p>
                                     <p>Why Trust Us?</p>
                                 </div>
-                            )}
+                            )} */}
 
                             <p>Pricing</p>
-                            <p>Track Record</p>
+                            <p>About us</p>
+                            {/* <p>Track Record</p>
                             <p>SME Corner</p>
                             <p>Stocks to Buy</p>
-                            <p>Blogs</p>
-
+                            <p>Blogs</p> */}
+{/* 
                             <div className="flex items-center gap-2">
                                 VIP Updates
                                 <span className="bg-red-500 text-white text-xs px-2 rounded-full">
                                     NEW
                                 </span>
-                            </div>
+                            </div> */}
                         </div>
 
                         {/* LOGIN CARD */}
-                        <div className="mt-8 border rounded-xl p-4 text-center">
+                        {/* <div className="mt-8 border rounded-xl p-4 text-center">
                             <p className="text-sm text-gray-600 mb-3">
                                 Log in to unlock 3 HOT stocks and Track Record for free.
                             </p>
                             <button className="w-full bg-[#0b5d50] text-white py-2 rounded-lg">
                                 Login
                             </button>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             )}

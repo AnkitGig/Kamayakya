@@ -5,6 +5,11 @@ import SmartInvestmentSolutions from '../components/SmartInvestmentSolutions'
 import PerformanceSection from '../components/PerformanceSection'
 import TestimonialsSection from '../components/TestimonialsSection'
 import InvestingPhilosophy from '../components/InvestingPhilosophy'
+import TrustSection from '../components/TrustSection'
+import PricingSection from '../components/PricingSection'
+import ContactUs from '../components/ContactUs'
+import Footer from '../components/Footer'
+import AboutUs from '../components/AboutUs'
 
 function HomePage() {
   return (
@@ -13,10 +18,14 @@ function HomePage() {
    <LogoSlider/>  
    <SmartInvestmentSolutions/>
    <InvestingPhilosophy/>
+   <PricingSection/>
    <PerformanceSection/>
+   <TrustSection/>
    <TestimonialsSection/>
+   <AboutUs/>
+   <ContactUs/>
+   <Footer/>
     </>
   )
 }
-
 export default HomePage
