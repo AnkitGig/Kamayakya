@@ -113,7 +113,7 @@ const TestimonialsSection = () => {
         viewport={{ once: true }}
         className="max-w-7xl mx-auto px-4 text-center mb-16 relative z-10"
       >
-        <p className="text-orange-500 text-sm font-semibold tracking-widest mb-2">
+        <p className="text-orange-500 text-sm font-semibold tracking-widest mt-10 mb-2">
           TESTIMONIALS
         </p>
         <h2 className="text-3xl sm:text-4xl font-bold">

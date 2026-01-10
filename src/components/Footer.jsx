@@ -72,18 +72,38 @@ export default function Footer() {
             <h4 className="text-white font-semibold mb-4">Legal</h4>
             <ul className="space-y-3 text-sm">
               <li>
-                <a href="#" className="hover:text-white transition">
+                <a href="/privacy-policy" className="hover:text-white transition">
                   Privacy Policy
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition">
-                  Terms & Conditions
+                <a href="/disclosure" className="hover:text-white transition">
+                  Disclosure
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition">
+                <a href="/disclaimer" className="hover:text-white transition">
                   Disclaimer
+                </a>
+              </li>
+              <li>
+                <a href="/refund-policy" className="hover:text-white transition">
+                  Refund Policy
+                </a>
+              </li>
+              <li>
+                <a href="/investor-charter" className="hover:text-white transition">
+                  Investor Charter
+                </a>
+              </li>
+              <li>
+                <a href="/grievance-redressal" className="hover:text-white transition">
+                  Grievance Redressal
+                </a>
+              </li>
+              <li>
+                <a href="/complaint-data" className="hover:text-white transition">
+                  Complaint Data
                 </a>
               </li>
             </ul>

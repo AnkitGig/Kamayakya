@@ -24,7 +24,6 @@ function HomePage() {
    <TestimonialsSection/>
    <section id="about"><AboutUs/></section>
    <section id="contact"><ContactUs/></section>
-   <Footer/>
     </>
   )
 }

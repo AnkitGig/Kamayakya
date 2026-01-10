@@ -1,9 +1,9 @@
 export default function PricingSection() {
     const plans = [
         {
-            name: "Free",
-            price: "₹0",
-            tag: "Starter",
+            name: "Monthly",
+            price: "₹12,500+GST",
+            tag: "",
             features: [
                 "Limited stock reports",
                 "Basic market insights",
@@ -13,8 +13,8 @@ export default function PricingSection() {
             highlight: false,
         },
         {
-            name: "Core",
-            price: "₹833",
+            name: "Quarterly",
+            price: "₹37,500+GST",
             tag: "Most Popular",
             features: [
                 "Detailed stock analysis",
@@ -22,20 +22,33 @@ export default function PricingSection() {
                 "Research-backed insights",
                 "Priority email support",
             ],
-            button: "Buy Core",
+            button: "Get Started",
             highlight: true,
         },
         {
-            name: "Advanced",
-            price: "₹1,000",
-            tag: "Pro",
+            name: "Half Yearly",
+            price: "₹75,000+GST",
+            tag: "",
             features: [
                 "In-depth deep research",
                 "Management interviews",
                 "On-site business analysis",
                 "1-on-1 analyst access",
             ],
-            button: "Buy Advanced",
+            button: "Get Started",
+            highlight: false,
+        },
+        {
+            name: "Yearly",
+            price: "₹150,000+GST",
+            tag: "",
+            features: [
+                "In-depth deep research",
+                "Management interviews",
+                "On-site business analysis",
+                "1-on-1 analyst access",
+            ],
+            button: "Get Started",
             highlight: false,
         },
     ];
@@ -55,12 +68,12 @@ export default function PricingSection() {
                 </div>
 
                 {/* Pricing Cards */}
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                     {plans.map((plan, index) => (
                         <div
                             key={index}
                             className={`rounded-2xl border p-8 bg-white shadow-sm relative ${plan.highlight
-                                    ? "border-orange-500 shadow-lg scale-105"
+                                    ? "border-orange-500 shadow-lg"
                                     : "border-gray-200"
                                 }`}
                         >
@@ -81,10 +94,10 @@ export default function PricingSection() {
 
                             {/* Price */}
                             <div className="mt-4">
-                                <span className="text-4xl font-bold text-gray-900">
+                                <span className="text-2xl font-bold text-gray-900">
                                     {plan.price}
                                 </span>
-                                <span className="text-gray-500 text-sm"> / month</span>
+                    
                             </div>
 
                             {/* Features */}
