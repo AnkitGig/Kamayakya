@@ -1,9 +1,9 @@
 import { useState } from "react";
 
 const TABS = [
-  { id: "factors", label: "Factors", color: "from-[#0b5d50] to-[#0f766e]" },
-  { id: "trigger", label: "Trigger", color: "from-[#0b5d50] to-[#0f766e]" },
-  { id: "method", label: "Method", color: "from-[#0b5d50] to-[#0f766e]" },
+  { id: "factors", label: "Factors", color: "from-[#71c1d1] to-[#71c1d1]" },
+  { id: "trigger", label: "Trigger", color: "from-[#71c1d1] to-[#71c1d1]" },
+  { id: "method", label: "Method", color: "from-[#71c1d1] to-[#71c1d1]" },
 ];
 
 const DATA = {
@@ -107,7 +107,7 @@ export default function InvestingPhilosophy() {
           </p>
 
           <h2 className="text-2xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-3">
-            Our <span className="italic text-emerald-600">Investment</span>{" "}
+            Our <span className="italic text-[#71c1d1]">Investment</span>{" "}
             Framework
           </h2>
 

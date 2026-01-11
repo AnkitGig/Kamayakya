@@ -2,7 +2,7 @@ export default function AboutUs() {
   return (
     <main className="bg-white py-10">
       {/* Hero */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-[#0f766e] to-[#043c40]">
+      <section className="relative overflow-hidden bg-gradient-to-br from-[#71c1d1] to-[#71c1d1]">
         <div className="max-w-7xl mx-auto px-6 py-28 text-center">
           <h1 className="text-4xl md:text-5xl font-extrabold text-white">
             About Us
@@ -73,7 +73,7 @@ export default function AboutUs() {
             ].map((item) => (
               <div
                 key={item.title}
-                className="bg-[#0f766e] rounded-2xl p-8 shadow-sm hover:shadow-md transition"
+                className="bg-[#71c1d1] rounded-2xl p-8 shadow-sm hover:shadow-md transition"
               >
                 <h3 className="text-xl font-semibold text-white">
                   {item.title}
@@ -100,7 +100,7 @@ export default function AboutUs() {
                 "Investor-first mindset",
               ].map((point) => (
                 <li key={point} className="flex items-start gap-3">
-                  <span className="mt-1 w-2 h-2 bg-[#0f766e] rounded-full" />
+                  <span className="mt-1 w-2 h-2 bg-[#71c1d1] rounded-full" />
                   {point}
                 </li>
               ))}
@@ -119,7 +119,7 @@ export default function AboutUs() {
                 key={stat.label}
                 className="bg-gray-50 rounded-2xl p-6 text-center"
               >
-                <p className="text-3xl font-bold text-[#0f766e]">
+                <p className="text-3xl font-bold text-[#71c1d1]">
                   {stat.value}
                 </p>
                 <p className="mt-1 text-sm text-gray-600">{stat.label}</p>

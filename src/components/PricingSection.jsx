@@ -73,14 +73,14 @@ export default function PricingSection() {
                         <div
                             key={index}
                             className={`rounded-2xl border p-8 bg-white shadow-sm relative ${plan.highlight
-                                    ? "border-orange-500 shadow-lg"
+                                    ? "border-[#71c1d1] shadow-lg"
                                     : "border-gray-200"
                                 }`}
                         >
                             {/* Tag */}
                             <span
                                 className={`absolute top-4 right-4 text-xs font-semibold px-3 py-1 rounded-full ${plan.highlight
-                                        ? "bg-orange-500 text-white"
+                                        ? "bg-[#71c1d1] text-white"
                                         : "bg-gray-100 text-gray-600"
                                     }`}
                             >
@@ -104,7 +104,7 @@ export default function PricingSection() {
                             <ul className="mt-6 space-y-3">
                                 {plan.features.map((feature, i) => (
                                     <li key={i} className="flex items-center gap-3 text-gray-700">
-                                        <span className="w-2 h-2 bg-green-500 rounded-full" />
+                                        <span className="w-2 h-2 bg-[#71c1d1] rounded-full" />
                                         {feature}
                                     </li>
                                 ))}
@@ -114,7 +114,7 @@ export default function PricingSection() {
                             <button
                                 onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSeisbk-bD_BWws1GLv9_7gldFDF8-dzouzHZpeoBXkKkVBS-g/viewform', '_blank')}
                                 className={`mt-8 w-full py-3 rounded-xl font-semibold transition ${plan.highlight
-                                        ? "bg-orange-500 text-white hover:bg-orange-600"
+                                        ? "bg-[#71c1d1] text-white hover:bg-[#71c1d1]/80"
                                         : "bg-gray-900 text-white hover:bg-gray-800"
                                     }`}
                             >
@@ -135,7 +135,7 @@ export default function PricingSection() {
                         </p>
                     </div>
 
-                    <button  onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSeisbk-bD_BWws1GLv9_7gldFDF8-dzouzHZpeoBXkKkVBS-g/viewform', '_blank')} className="w-full sm:w-auto px-6 py-3 bg-gradient-to-r from-emerald-500 to-cyan-500 text-white rounded-xl font-semibold">
+                    <button  onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSeisbk-bD_BWws1GLv9_7gldFDF8-dzouzHZpeoBXkKkVBS-g/viewform', '_blank')} className="w-full sm:w-auto px-6 py-3 bg-[#71c1d1] text-white rounded-xl font-semibold">
                         Explore Opportunities
                     </button>
                 </div>

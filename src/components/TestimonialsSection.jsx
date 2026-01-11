@@ -191,8 +191,8 @@ const TestimonialsSection = () => {
 
       {/* NEWS SECTION */}
       <div className="mt-20 flex justify-center px-4 relative z-10">
-        <div className="bg-gradient-to-r from-[#042f2e] via-[#064e4f] to-[#042f2e] rounded-3xl px-10 py-12 max-w-6xl text-center shadow-2xl overflow-hidden w-full">
-          <p className="text-orange-400 text-sm tracking-widest mb-3">
+        <div className="bg-[#71c1d1] rounded-3xl px-10 py-12 max-w-6xl text-center shadow-2xl overflow-hidden w-full">
+          <p className="text-black text-sm tracking-widest mb-3">
             FEATURED IN THE NEWS
           </p>
 

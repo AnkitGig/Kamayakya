@@ -11,9 +11,9 @@ export default function SmartInvestmentSolutions() {
   ];
 
   return (
-    <section className="bg-[#062f2e] py-16 md:py-20 text-white">
+    <section className="bg-[#71c1d1] py-16 md:py-20 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
-        <p className="text-center text-orange-400 text-xs tracking-widest mb-2">
+        <p className="text-center text-black text-xs tracking-widest mb-2">
           SERVICES
         </p>
         <h2 className="text-center text-2xl sm:text-3xl md:text-4xl font-bold mb-10 md:mb-14">
@@ -23,7 +23,7 @@ export default function SmartInvestmentSolutions() {
         {/* GRID */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* LEFT CARD */}
-          <div className="bg-[#0b3f3d] rounded-2xl p-5 sm:p-6">
+          <div className="bg-[#24354d] rounded-2xl p-5 sm:p-6">
             {/* LOGO SLIDER */}
             <div className="space-y-3 overflow-hidden mb-6">
               {rows.map((row, idx) => (
@@ -54,7 +54,7 @@ export default function SmartInvestmentSolutions() {
           </div>
 
           {/* CENTER */}
-          <div className="bg-[#0b3f3d] rounded-2xl p-5 sm:p-6 flex flex-col items-center justify-center text-center">
+          <div className="bg-[#24354d] rounded-2xl p-5 sm:p-6 flex flex-col items-center justify-center text-center">
             <div className="w-full aspect-video bg-white/10 rounded-xl mb-6 overflow-hidden">
               <video
                 src="/assets/video/kmkbasket (1).webm"
@@ -75,7 +75,7 @@ export default function SmartInvestmentSolutions() {
           </div>
 
           {/* RIGHT */}
-          <div className="bg-[#0b3f3d] rounded-2xl p-5 sm:p-6 space-y-4">
+          <div className="bg-[#24354d] rounded-2xl p-5 sm:p-6 space-y-4">
             {[
               "Action Update: SELL Triggered",
               "Hot Stock Update",

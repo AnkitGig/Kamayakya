@@ -79,7 +79,7 @@ export default function ContactUs() {
 
               <button
                 type="submit"
-                className="w-full bg-[#0f766e] text-white py-3 rounded-xl font-semibold hover:bg-[#115e59] transition"
+                className="w-full bg-[#71c1d1] text-white py-3 rounded-xl font-semibold hover:bg-[#115e59] transition"
               >
                 Send Message
               </button>
@@ -96,7 +96,7 @@ export default function ContactUs() {
       >
         <path
           d="M0,40 C240,100 480,0 720,30 960,60 1200,120 1440,60 L1440,120 L0,120 Z"
-          fill="#0f766e"
+          fill="#71c1d1"
         />
       </svg>
     </section>
