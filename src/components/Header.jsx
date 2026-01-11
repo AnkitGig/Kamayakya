@@ -26,7 +26,7 @@ export default function Header() {
                     {/* LOGO */}
                     <div className="flex items-center gap-2">
                         <a href="/">
-                            <img src="/assets/logo-removebg-preview.png" alt="Finvesta Research" className="h-15 w-auto" />
+                            <img src="/assets/logo.png" alt="Finvesta Research" className="h-15 w-auto" />
                         </a>
                     </div>
 

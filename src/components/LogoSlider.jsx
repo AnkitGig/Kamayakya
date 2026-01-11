@@ -17,7 +17,7 @@ export default function LogoSlider() {
   return (
     <section className="bg-[#f4fffd] py-10 overflow-hidden">
       <p className="text-center text-gray-700 mb-6 font-medium">
-        Our members include leaders from
+       Our leader members iclude leaders from
       </p>
 
       <div className="relative w-full overflow-hidden">

@@ -14,7 +14,7 @@ export default function PricingSection() {
         },
         {
             name: "Quarterly",
-            price: "₹37,500+GST",
+            price: "₹32,500+GST",
             tag: "Most Popular",
             features: [
                 "Detailed stock analysis",
@@ -27,7 +27,7 @@ export default function PricingSection() {
         },
         {
             name: "Half Yearly",
-            price: "₹75,000+GST",
+            price: "₹60,000+GST",
             tag: "",
             features: [
                 "In-depth deep research",
@@ -40,7 +40,7 @@ export default function PricingSection() {
         },
         {
             name: "Yearly",
-            price: "₹150,000+GST",
+            price: "₹99,000+GST",
             tag: "",
             features: [
                 "In-depth deep research",
