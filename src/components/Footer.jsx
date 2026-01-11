@@ -1,6 +1,11 @@
 export default function Footer() {
   return (
     <footer className="bg-[#24354d] text-gray-300 pt-16">
+      <div>
+        <h1>SEBI Registered Research Analyst:</h1>
+        <h1>About the Individual</h1>
+        <p>K</p>
+      </div>
       <div className="max-w-7xl mx-auto px-4">
         {/* Top Section */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10 pb-12 border-b border-gray-800">

@@ -10,7 +10,7 @@ export default function Home1() {
       <div className="relative max-w-7xl mx-auto px-4 py-20 grid lg:grid-cols-2 gap-12 items-center">
         {/* LEFT CONTENT */}
         <div>
-          <span className="inline-block mb-4 px-4 py-1 border border-green-400 rounded-full text-sm text-green-700 bg-white">
+          <span className="inline-block mb-4 px-4 py-1 border border-[#71c1d1] rounded-full text-sm text-black bg-white">
             SEBI Registered: INH000024310
           </span>
 

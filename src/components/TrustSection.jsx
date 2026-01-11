@@ -4,7 +4,7 @@ export default function TrustSection() {
       <div className="max-w-7xl mx-auto px-2">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-14">
-          <span className="text-sm font-semibold text-orange-500 uppercase">
+          <span className="text-sm font-semibold text-gray-900 uppercase">
             Why trust us?
           </span>
 

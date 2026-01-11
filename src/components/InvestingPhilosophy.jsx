@@ -102,7 +102,7 @@ export default function InvestingPhilosophy() {
       <div className="max-w-7xl mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-10 sm:mb-16">
-          <p className="text-xs font-semibold text-orange-600 mb-2">
+          <p className="text-xs font-semibold text-gray-900 mb-2">
             INVESTING PHILOSOPHY
           </p>
 

@@ -9,21 +9,21 @@ const testimonials = [
     role: "Indus Properties",
     image: "https://i.pravatar.cc/100?img=11",
     text:
-      "My experience with Kamayakya in both their smallcase and VIP+ website subscription has been great so far. Their in-depth analysis and risk reward balance is unmatched.",
+      "My experience with Finvesta Researc in both their smallcase and VIP+ website subscription has been great so far. Their in-depth analysis and risk reward balance is unmatched.",
   },
   {
     name: "	DEEPAK RAWAT",
     role: "Associated Director",
     image: "https://i.pravatar.cc/100?img=12",
     text:
-      "I have been thoroughly impressed with Kamayakya’s stock recommendations. Their picks are clearly communicated with defined exit strategies.",
+      "I have been thoroughly impressed with Finvesta Researc’s stock recommendations. Their picks are clearly communicated with defined exit strategies.",
   },
   {
     name: "Veerendra s.",
     role: "Investor",
     image: "https://i.pravatar.cc/100?img=13",
     text:
-      "Kamayakya helped me develop discipline and confidence. Their transparency and consistency give long-term comfort.",
+      "Finvesta Researc helped me develop discipline and confidence. Their transparency and consistency give long-term comfort.",
   },
   {
     name: "Rakesh Patel",
@@ -37,14 +37,14 @@ const testimonials = [
     role: "Indus Properties",
     image: "https://i.pravatar.cc/100?img=11",
     text:
-      "My experience with Kamayakya in both their smallcase and VIP+ website subscription has been great so far. Their in-depth analysis and risk reward balance is unmatched.",
+      "My experience with Finvesta Researc in both their smallcase and VIP+ website subscription has been great so far. Their in-depth analysis and risk reward balance is unmatched.",
   },
   {
     name: "Suresh Kumar",
     role: "Associated Director",
     image: "https://i.pravatar.cc/100?img=12",
     text:
-      "I have been thoroughly impressed with Kamayakya’s stock recommendations. Their picks are clearly communicated with defined exit strategies.",
+      "I have been thoroughly impressed with Finvesta Researc’s stock recommendations. Their picks are clearly communicated with defined exit strategies.",
   },
 ];
 
@@ -94,7 +94,7 @@ const TestimonialsSection = () => {
 
       {/* FLOATING BLOBS */}
       <motion.div
-        className="absolute -top-32 -left-32 w-96 h-96 bg-orange-300/30 rounded-full blur-3xl"
+        className="absolute -top-32 -left-32 w-96 h-96 bg-[#71c1d1]/30 rounded-full blur-3xl"
         animate={{ y: [0, 40, 0], x: [0, 20, 0] }}
         transition={{ duration: 12, repeat: Infinity, ease: "easeInOut" }}
       />
