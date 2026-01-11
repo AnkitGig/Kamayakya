@@ -5,42 +5,42 @@ import { motion } from "framer-motion";
 
 const testimonials = [
   {
-    name: "Kiran Sanghvi",
+    name: "Laxmi Chouhan",
     role: "Indus Properties",
     image: "https://i.pravatar.cc/100?img=11",
     text:
       "My experience with Kamayakya in both their smallcase and VIP+ website subscription has been great so far. Their in-depth analysis and risk reward balance is unmatched.",
   },
   {
-    name: "Atharva Agashe",
+    name: "	DEEPAK RAWAT",
     role: "Associated Director",
     image: "https://i.pravatar.cc/100?img=12",
     text:
       "I have been thoroughly impressed with Kamayakya’s stock recommendations. Their picks are clearly communicated with defined exit strategies.",
   },
   {
-    name: "Tarun Mittal",
+    name: "Veerendra s.",
     role: "Investor",
     image: "https://i.pravatar.cc/100?img=13",
     text:
       "Kamayakya helped me develop discipline and confidence. Their transparency and consistency give long-term comfort.",
   },
   {
-    name: "Rohit Mehta",
+    name: "Rakesh Patel",
     role: "Investor",
     image: "https://i.pravatar.cc/100?img=14",
     text:
       "Their research depth and clarity of communication sets them apart from other advisory platforms.",
   },
   {
-    name: "Kiran Sanghvi",
+    name: "Pooja Sanghvi",
     role: "Indus Properties",
     image: "https://i.pravatar.cc/100?img=11",
     text:
       "My experience with Kamayakya in both their smallcase and VIP+ website subscription has been great so far. Their in-depth analysis and risk reward balance is unmatched.",
   },
   {
-    name: "Atharva Agashe",
+    name: "Suresh Kumar",
     role: "Associated Director",
     image: "https://i.pravatar.cc/100?img=12",
     text:
