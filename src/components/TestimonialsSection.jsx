@@ -7,44 +7,44 @@ const testimonials = [
   {
     name: "Laxmi Chouhan",
     role: "Indus Properties",
-    image: "https://i.pravatar.cc/100?img=11",
+    image: "./assets/user-avatar.png",
     text:
-      "My experience with Finvesta Researc in both their smallcase and VIP+ website subscription has been great so far. Their in-depth analysis and risk reward balance is unmatched.",
+      "My experience with Finvesta Research in both their smallcase and VIP+ website subscription has been great so far. Their in-depth analysis and risk reward balance is unmatched.",
   },
   {
     name: "	DEEPAK RAWAT",
     role: "Associated Director",
-    image: "https://i.pravatar.cc/100?img=12",
+    image: "./assets/user-avatar.png",
     text:
-      "I have been thoroughly impressed with Finvesta Researc’s stock recommendations. Their picks are clearly communicated with defined exit strategies.",
+      "I have been thoroughly impressed with Finvesta Research stock recommendations. Their picks are clearly communicated with defined exit strategies.",
   },
   {
     name: "Veerendra s.",
     role: "Investor",
-    image: "https://i.pravatar.cc/100?img=13",
+    image: "./assets/user-avatar.png",
     text:
-      "Finvesta Researc helped me develop discipline and confidence. Their transparency and consistency give long-term comfort.",
+      "Finvesta Research helped me develop discipline and confidence. Their transparency and consistency give long-term comfort.",
   },
   {
     name: "Rakesh Patel",
     role: "Investor",
-    image: "https://i.pravatar.cc/100?img=14",
+    image: "./assets/user-avatar.png",
     text:
       "Their research depth and clarity of communication sets them apart from other advisory platforms.",
   },
   {
     name: "Pooja Sanghvi",
     role: "Indus Properties",
-    image: "https://i.pravatar.cc/100?img=11",
+    image: "./assets/user-avatar.png",
     text:
-      "My experience with Finvesta Researc in both their smallcase and VIP+ website subscription has been great so far. Their in-depth analysis and risk reward balance is unmatched.",
+      "My experience with Finvesta Research in both their smallcase and VIP+ website subscription has been great so far. Their in-depth analysis and risk reward balance is unmatched.",
   },
   {
     name: "Suresh Kumar",
     role: "Associated Director",
-    image: "https://i.pravatar.cc/100?img=12",
+    image: "./assets/user-avatar.png",
     text:
-      "I have been thoroughly impressed with Finvesta Researc’s stock recommendations. Their picks are clearly communicated with defined exit strategies.",
+      "I have been thoroughly impressed with Finvesta Research stock recommendations. Their picks are clearly communicated with defined exit strategies.",
   },
 ];
 

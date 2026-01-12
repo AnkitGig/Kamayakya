@@ -1,17 +1,18 @@
 export default function Footer() {
   return (
     <footer className="bg-[#24354d] text-gray-300 pt-16">
-      <div>
+      <div className=" justify-center text-center px-4 pb-8 border-b border-gray-800">
         <h1>SEBI Registered Research Analyst:</h1>
-        <h1>About the Individual</h1>
-        <p>K</p>
+        <h1>About the Individual:</h1>
+        <p>Kaushal Sharma (Hereinafter Referred as RA ) is a registered research analyst with SEBI, providing expert financial insights and investment recommendations.</p>
+        <p>SEBI Registered: INH000024310</p>
       </div>
       <div className="max-w-7xl mx-auto px-4">
         {/* Top Section */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10 pb-12 border-b border-gray-800">
           {/* Brand */}
           <div>
-            <h3 className="text-2xl font-bold text-white">YourBrand</h3>
+            <h3 className="text-2xl font-bold text-white">Finvesta Research</h3>
             <p className="mt-4 text-sm text-gray-400 leading-relaxed">
               Research-driven investing platform helping you make smarter,
               data-backed financial decisions.

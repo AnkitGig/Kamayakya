@@ -31,7 +31,7 @@ export default function ContactUs() {
               <div className="space-y-4 text-gray-700">
                 <p>
                   <span className="font-semibold">Email:</span>{" "}
-                  support@yourcompany.com
+                  rakaushalsharma@gmail.com
                 </p>
                 <p>
                   <span className="font-semibold">Phone:</span> +91 074005 14850

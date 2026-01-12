@@ -16,9 +16,9 @@ const logos = [
 export default function LogoSlider() {
   return (
     <section className="bg-[#f4fffd] py-10 overflow-hidden">
-      <p className="text-center text-gray-700 mb-6 font-medium">
+      {/* <p className="text-center text-gray-700 mb-6 font-medium">
        Our leader members iclude leaders from
-      </p>
+      </p> */}
 
       <div className="relative w-full overflow-hidden">
         <div className="flex w-max animate-scroll gap-16 items-center">
