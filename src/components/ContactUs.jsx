@@ -34,7 +34,7 @@ export default function ContactUs() {
                   rakaushalsharma@gmail.com
                 </p>
                 <p>
-                  <span className="font-semibold">Phone:</span> +91 074005 14850
+                  <span className="font-semibold">Phone:</span> +91 74005 14850
                 </p>
                 <p>
                   <span className="font-semibold">Address:</span> 102 First Floor 62 Savid Nagar Main Road Kanadiya Road, Indore, Madhya Pardesh, 450001

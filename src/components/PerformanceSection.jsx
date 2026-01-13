@@ -10,15 +10,12 @@ const PerformanceSectionPro = () => {
 
           {/* MAIN GRID */}
           <div className="relative grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12 items-center">
-
             {/* LEFT CONTENT */}
             <div className="text-white text-center lg:text-left">
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight mb-5">
                 Real performance.
                 <br />
-                <span className="text-[#24354d] ">
-                  Total transparency.
-                </span>
+                <span className="text-[#24354d] ">Total transparency.</span>
               </h2>
 
               <p className="text-white max-w-lg mx-auto lg:mx-0 text-base sm:text-lg mb-7">
@@ -39,9 +36,7 @@ const PerformanceSectionPro = () => {
             {/* RIGHT ANALYTICS */}
             <div className="flex justify-center">
               <div className="relative w-full max-w-md sm:max-w-lg">
-
                 <div className="bg-white/90 backdrop-blur-xl rounded-3xl shadow-2xl p-4 sm:p-6 space-y-5">
-
                   {/* Header */}
                   <div className="flex items-center justify-between">
                     <h3 className="font-bold text-black text-sm sm:text-base">
@@ -55,7 +50,9 @@ const PerformanceSectionPro = () => {
                   {/* Stats */}
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div className="rounded-2xl bg-[#71c1d1] p-4 text-center">
-                      <p className="text-sm opacity-80 text-black">Avg Live Returns</p>
+                      <p className="text-sm opacity-80 text-black">
+                        Avg Live Returns
+                      </p>
                       <img
                         src="/assets/Real-Performance/commerce.png"
                         alt=""
@@ -66,12 +63,14 @@ const PerformanceSectionPro = () => {
                       </div>
                     </div>
 
-                    <div className="rounded-2xl bg-gray-50 p-4">
-                      <p className="text-sm font-semibold text-black mb-2">
+                    <div className="rounded-2xl bg-gray-50 p-4 flex flex-col items-center justify-center text-center">
+                      <p className="text-sm font-semibold text-black mb-3">
                         Performance Split
                       </p>
-                      <div className="flex items-center gap-4">
+
+                      <div className="flex flex-col items-center gap-3">
                         <div className="w-14 h-14 rounded-full border-8 border-emerald-500 border-t-yellow-400 border-r-red-400"></div>
+
                         <div className="text-xs space-y-1">
                           <p className="text-emerald-600">● High</p>
                           <p className="text-yellow-500">● Medium</p>
@@ -98,9 +97,7 @@ const PerformanceSectionPro = () => {
                     </div>
 
                     <div className="bg-white rounded-2xl p-4 text-center text-black ">
-                      <p className="text-sm font-semibold mb-2">
-                        ↓ Top Loser
-                      </p>
+                      <p className="text-sm font-semibold mb-2">↓ Top Loser</p>
                       <img
                         src="/assets/Real-Performance/lost.png"
                         alt=""
@@ -111,11 +108,9 @@ const PerformanceSectionPro = () => {
                       </p>
                     </div>
                   </div>
-
                 </div>
               </div>
             </div>
-
           </div>
         </div>
       </div>

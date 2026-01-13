@@ -2,7 +2,7 @@ export default function PricingSection() {
     const plans = [
         {
             name: "Monthly",
-            price: "₹12,500+GST",
+            price: "₹9,900+GST",
             tag: "",
             features: [
                 "Limited stock reports",
@@ -14,7 +14,7 @@ export default function PricingSection() {
         },
         {
             name: "Quarterly",
-            price: "₹32,500+GST",
+            price: "₹29,900+GST",
             tag: "Most Popular",
             features: [
                 "Detailed stock analysis",
@@ -27,7 +27,7 @@ export default function PricingSection() {
         },
         {
             name: "Half Yearly",
-            price: "₹60,000+GST",
+            price: "₹59,900+GST",
             tag: "",
             features: [
                 "In-depth deep research",
