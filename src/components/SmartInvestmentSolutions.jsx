@@ -11,20 +11,23 @@ export default function SmartInvestmentSolutions() {
   ];
 
   return (
-    <section className="bg-[#71c1d1] py-16 md:py-20 text-white">
+    <section className="bg-gradient-to-br from-[#0f2f3a] to-[#123d4a] py-16 md:py-20 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
-        <p className="text-center text-black text-xs tracking-widest mb-2">
+        {/* HEADER */}
+        <p className="text-center text-xs tracking-widest text-emerald-200 mb-2">
           SERVICES
         </p>
-        <h2 className="text-center text-2xl sm:text-3xl md:text-4xl font-bold mb-10 md:mb-14">
-          Smart <span className="italic">Investment</span> Solutions
+
+        <h2 className="text-center text-2xl sm:text-3xl md:text-4xl font-bold mb-12">
+          Smart <span className="italic text-[#4fd1c5]">Investment</span> Solutions
         </h2>
 
         {/* GRID */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          
           {/* LEFT CARD */}
-          <div className="bg-[#24354d] rounded-2xl p-5 sm:p-6">
-            {/* LOGO SLIDER */}
+          <div className="bg-[#1b3f4a] rounded-2xl p-5 sm:p-6 border border-white/10 hover:shadow-2xl transition">
+            {/* LOGO MARQUEE */}
             <div className="space-y-3 overflow-hidden mb-6">
               {rows.map((row, idx) => (
                 <div key={idx}>
@@ -34,7 +37,7 @@ export default function SmartInvestmentSolutions() {
                     }`}
                   >
                     {[...row.data, ...row.data, ...row.data].map((src, i) => (
-                      <div key={i} className="logo-item ">
+                      <div key={i} className="logo-item">
                         <img src={src} alt="" />
                       </div>
                     ))}
@@ -44,18 +47,19 @@ export default function SmartInvestmentSolutions() {
             </div>
 
             <h3 className="font-semibold mb-2 flex items-center gap-2 text-sm sm:text-base">
-              <span className="text-green-400">✔</span>
+              <span className="text-emerald-400">✔</span>
               Smart Stock Recommendations
             </h3>
+
             <p className="text-xs sm:text-sm text-white/80">
               From Main Board to SMEs – curated stock picks with clear
               Buy/Hold/Sell alerts.
             </p>
           </div>
 
-          {/* CENTER */}
-          <div className="bg-[#24354d] rounded-2xl p-5 sm:p-6 flex flex-col items-center justify-center text-center">
-            <div className="w-full aspect-video bg-white/10 rounded-xl mb-6 overflow-hidden">
+          {/* CENTER CARD */}
+          <div className="bg-[#1b3f4a] rounded-2xl p-5 sm:p-6 flex flex-col items-center text-center border border-white/10 hover:shadow-2xl transition">
+            <div className="w-full aspect-video bg-black/20 rounded-xl mb-6 overflow-hidden">
               <video
                 src="/assets/video/kmkbasket (1).webm"
                 autoPlay
@@ -65,17 +69,19 @@ export default function SmartInvestmentSolutions() {
                 className="w-full h-full object-cover"
               />
             </div>
+
             <h3 className="font-semibold mb-2 text-sm sm:text-base">
               Fundamental Research Reports & Videos
             </h3>
+
             <p className="text-xs sm:text-sm text-white/80 max-w-xs">
-              Short + detailed analysis with video breakdowns so you invest with
+              Short & detailed analysis with video breakdowns so you invest with
               confidence.
             </p>
           </div>
 
-          {/* RIGHT */}
-          <div className="bg-[#24354d] rounded-2xl p-5 sm:p-6 space-y-4">
+          {/* RIGHT CARD */}
+          <div className="bg-[#1b3f4a] rounded-2xl p-5 sm:p-6 space-y-4 border border-white/10 hover:shadow-2xl transition">
             {[
               "Action Update: SELL Triggered",
               "Hot Stock Update",
@@ -94,7 +100,7 @@ export default function SmartInvestmentSolutions() {
         </div>
       </div>
 
-      {/* CSS */}
+      {/* MARQUEE CSS */}
       <style>{`
         .marquee-track {
           display: flex;
@@ -121,13 +127,12 @@ export default function SmartInvestmentSolutions() {
           }
         }
 
-       .logo-item img {
-  width: 70%;
-  height: 70%;
-  object-fit: contain;
-  border-radius: 9999px;   /* SAFETY */
-}
-
+        .logo-item img {
+          width: 70%;
+          height: 70%;
+          object-fit: contain;
+          border-radius: 9999px;
+        }
 
         @keyframes marqueeLeft {
           from { transform: translateX(0); }
