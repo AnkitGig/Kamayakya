@@ -179,9 +179,7 @@ const TestimonialsSection = () => {
                   <p className="font-semibold text-gray-800">
                     {item.name}
                   </p>
-                  <p className="text-sm text-gray-500">
-                    {item.role}
-                  </p>
+                 
                 </div>
               </div>
             </motion.div>
