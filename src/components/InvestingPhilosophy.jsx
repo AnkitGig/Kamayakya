@@ -1,32 +1,65 @@
 import { useState } from "react";
 
 const TABS = [
-  { id: "factors", label: "Factors" },
-  { id: "trigger", label: "Triggers" },
-  { id: "method", label: "Method" },
+  { id: "factors", label: "Process over predictions" },
+  { id: "trigger", label: "Risk before returns" },
+  { id: "method", label: "Data, not narratives" },
 ];
 
 const DATA = {
   factors: [
-    { title: "Cash flow", description: "Sustainable financial health and liquidity" },
-    { title: "Top-line growth", description: "Revenue expansion and market capture" },
-    { title: "Bottom-line growth", description: "Profitability and margin improvement" },
-    { title: "Promoter holding", description: "Insider confidence and alignment" },
-    { title: "Management quality", description: "Leadership competence and vision" },
-    { title: "Valuations", description: "Fair price relative to intrinsic value" },
+    {
+      title: "Rule-Based Decisions",
+      description: "Act on defined rules, not assumptions",
+    },
+    {
+      title: "Consistency Wins",
+      description: "Repeat proven actions over time",
+    },
+    {
+      title: "Emotional Control",
+      description: "Remove fear and greed from decisions",
+    },
+    {
+      title: "Execution Excellence",
+      description: "Quality execution matters more than ideas",
+    },
+    {
+      title: "System Improvement",
+      description: "Refine processes step by step",
+    },
+    {
+      title: "Process-Driven Outcomes",
+      description: "Results follow disciplined systems",
+    },
   ],
   trigger: [
-    { title: "Capacity expansion", description: "Strategic growth investments" },
-    { title: "Debt reduction", description: "Improved balance sheet strength" },
-    { title: "Change in management", description: "New leadership and direction" },
-    { title: "Industry tailwinds", description: "Favorable sector dynamics" },
-    { title: "Govt policies", description: "Regulatory support and incentives" },
-    { title: "Turnaround plays", description: "Recovery and transformation stories" },
+    {
+      title: "Capital Protection",
+      description: "Safeguard funds before seeking growth",
+    },
+    {
+      title: "Downside Awareness",
+      description: "Know the risk before the reward",
+    },
+    {
+      title: "Loss Prevention",
+      description: "Avoid losses to stay in the game",
+    },
   ],
   method: [
-    { title: "Solid data & research", description: "Deep fundamental analysis" },
-    { title: "Management interactions", description: "Direct leadership insights" },
-    { title: "Channel checks", description: "Ground-level verification" },
+    {
+      title: "Data-Backed Decisions",
+      description: "Numbers validate every move",
+    },
+    {
+      title: "Evidence Over Opinion",
+      description: "Ignore stories without proof",
+    },
+    {
+      title: "Measure First",
+      description: "You can’t improve what you don’t track",
+    },
   ],
 };
 
@@ -60,7 +93,6 @@ export default function InvestingPhilosophy() {
   return (
     <section className="py-12 sm:py-20 bg-gradient-to-br from-[#f8fbfd] to-white">
       <div className="max-w-7xl mx-auto px-4">
-
         {/* Header */}
         <div className="text-center mb-12">
           <p className="text-xs font-semibold tracking-widest text-gray-500 mb-2">
@@ -68,11 +100,13 @@ export default function InvestingPhilosophy() {
           </p>
 
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-            Our <span className="italic text-[#71c1d1]">Investment</span> Framework
+            Our <span className="italic text-[#71c1d1]">Investment</span>{" "}
+            Framework
           </h2>
 
           <p className="text-sm sm:text-lg text-gray-600 max-w-2xl mx-auto">
-            A disciplined approach combining fundamentals, triggers, and research-backed execution.
+            A disciplined approach combining fundamentals, triggers, and
+            research-backed execution.
           </p>
         </div>
 
@@ -124,7 +158,6 @@ export default function InvestingPhilosophy() {
             </div>
           ))}
         </div>
-
       </div>
     </section>
   );
