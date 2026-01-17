@@ -9,6 +9,7 @@ import ComplaintData from "./pages/ComplaintData";
 import Disclaimer from "./pages/Disclaimer";
 import Disclosure from "./pages/Disclosure";
 import Footer from "./components/Footer";
+import PaymentPage from "./pages/Payment";
 
 
 export default function App() {
@@ -24,6 +25,7 @@ export default function App() {
         <Route path="/complaint-data" element={<ComplaintData />} />
         <Route path="/disclaimer" element={<Disclaimer />} />
         <Route path="/disclosure" element={<Disclosure />} />
+        <Route path="/payment" element={<PaymentPage />} />
       </Routes>
       <Footer />
     </BrowserRouter>

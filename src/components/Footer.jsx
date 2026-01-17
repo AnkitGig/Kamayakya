@@ -109,6 +109,17 @@ export default function Footer() {
               </li>
             </ul>
           </div>
+
+          <div>
+            <h4 className="text-white font-semibold mb-4">Company Bank Details</h4>
+            <ul className="space-y-3 text-sm">
+              <li>
+                <a href="/payment" className="hover:text-white transition">
+                  Payment
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
 
         {/* Bottom Section */}
