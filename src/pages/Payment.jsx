@@ -63,7 +63,7 @@ const PaymentPage = () => {
 
               <div className="flex justify-between">
                 <span className="text-gray-500 text-sm">IFSC Code</span>
-                <span className="font-medium text-sm">DEMO</span>
+                <span className="font-medium text-sm">HDFC0003693</span>
               </div>
             </div>
 
