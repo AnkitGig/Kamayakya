@@ -1,9 +1,22 @@
 import React from "react";
 import Typewriter from "./Typewriter";
+import whatsappImg from "../../public/assets/whatsapp.png";
 
 export default function Home1() {
   return (
-    <section className="relative bg-[#f4fffd] overflow-hidden">
+    <>
+      {/* Floating WhatsApp Button */}
+      <a
+        href="https://wa.me/919993807442?text=I'm ready for free trail investment advisory services."
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition z-50 flex items-center justify-center"
+        title="Chat on WhatsApp"
+      >
+       <img src={whatsappImg} alt="" className="h-8"/>
+      </a>
+
+      <section className="relative bg-[#f4fffd] overflow-hidden">
       {/* subtle grid background */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#e8f5f3_1px,transparent_1px),linear-gradient(to_bottom,#e8f5f3_1px,transparent_1px)] bg-[size:48px_48px] opacity-40"></div>
 
@@ -32,7 +45,7 @@ export default function Home1() {
           <button
             onClick={() =>
               window.open(
-                "https://wa.me/919993807442?text=Hi, I'm interested in your investment solutions!",
+                "https://wa.me/919993807442?text=I'm ready for free trail investment advisory services.",
                 "_blank"
               )
             }
@@ -86,5 +99,6 @@ export default function Home1() {
         </div>
       </div>
     </section>
+    </>
   );
 }

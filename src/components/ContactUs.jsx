@@ -1,4 +1,37 @@
+import { useState } from "react";
+
 export default function ContactUs() {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({
+      ...prev,
+      [name]: value,
+    }));
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    const whatsappMessage = `*New Contact Inquiry*\n\n*Name:* ${formData.name}\n*Email:* ${formData.email}\n*Message:* ${formData.message}`;
+    const encodedMessage = encodeURIComponent(whatsappMessage);
+    const whatsappUrl = `https://wa.me/919993807442?text=${encodedMessage}`;
+
+    window.open(whatsappUrl, "_blank");
+
+    // Reset form
+    setFormData({
+      name: "",
+      email: "",
+      message: "",
+    });
+  };
+
   return (
     <section className="relative bg-white overflow-hidden">
       <div>
@@ -9,8 +42,8 @@ export default function ContactUs() {
               Contact Us
             </h2>
             <p className="mt-3 text-gray-600 max-w-2xl mx-auto">
-              Have questions or need help? Fill out the form and our team will get
-              back to you shortly.
+              Have questions or need help? Fill out the form and our team will
+              get back to you shortly.
             </p>
           </div>
 
@@ -37,19 +70,27 @@ export default function ContactUs() {
                   <span className="font-semibold">Phone:</span> +91 74005 14850
                 </p>
                 <p>
-                  <span className="font-semibold">Address:</span> 102 First Floor 62 Savid Nagar Main Road Kanadiya Road, Indore, Madhya Pardesh, 450001
+                  <span className="font-semibold">Address:</span> 102 First
+                  Floor 62 Savid Nagar Main Road Kanadiya Road, Indore, Madhya
+                  Pardesh, 450001
                 </p>
               </div>
             </div>
 
             {/* Right Form */}
-            <form className="bg-gray-50 p-8 rounded-2xl shadow-sm space-y-6">
+            <form
+              className="bg-gray-50 p-8 rounded-2xl shadow-sm space-y-6"
+              onSubmit={handleSubmit}
+            >
               <div>
                 <label className="block text-sm font-medium text-gray-700">
                   Full Name
                 </label>
                 <input
                   type="text"
+                  name="name"
+                  value={formData.name}
+                  onChange={handleChange}
                   placeholder="Enter your name"
                   className="mt-2 w-full rounded-lg border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#0f766e]"
                 />
@@ -61,6 +102,9 @@ export default function ContactUs() {
                 </label>
                 <input
                   type="email"
+                  name="email"
+                  value={formData.email}
+                  onChange={handleChange}
                   placeholder="Enter your email"
                   className="mt-2 w-full rounded-lg border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#0f766e]"
                 />
@@ -72,6 +116,9 @@ export default function ContactUs() {
                 </label>
                 <textarea
                   rows="4"
+                  name="message"
+                  value={formData.message}
+                  onChange={handleChange}
                   placeholder="Write your message..."
                   className="mt-2 w-full rounded-lg border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#0f766e]"
                 />
@@ -79,6 +126,7 @@ export default function ContactUs() {
 
               <button
                 type="submit"
+                onClick={handleSubmit}
                 className="w-full bg-[#71c1d1] text-white py-3 rounded-xl font-semibold hover:bg-[#115e59] transition"
               >
                 Send Message

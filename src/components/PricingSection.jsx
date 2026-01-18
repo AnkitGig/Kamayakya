@@ -152,9 +152,9 @@ export default function PricingSection() {
 
           <button
             onClick={() =>
-              window.open(
-                "https://docs.google.com/forms/d/e/1FAIpQLSeisbk-bD_BWws1GLv9_7gldFDF8-dzouzHZpeoBXkKkVBS-g/viewform",
-                "_blank",
+             window.open(
+                "https://wa.me/919993807442?text=I'm ready for free trail investment advisory services.",
+                "_blank"
               )
             }
             className="w-full sm:w-auto px-6 py-3 bg-[#71c1d1] text-white rounded-xl font-semibold"
