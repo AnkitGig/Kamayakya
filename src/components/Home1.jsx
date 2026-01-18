@@ -32,7 +32,7 @@ export default function Home1() {
           <button
             onClick={() =>
               window.open(
-                "https://docs.google.com/forms/d/e/1FAIpQLSeisbk-bD_BWws1GLv9_7gldFDF8-dzouzHZpeoBXkKkVBS-g/viewform",
+                "https://wa.me/919993807442?text=Hi, I'm interested in your investment solutions!",
                 "_blank"
               )
             }
