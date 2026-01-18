@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import InvestingPillars from "./InvestingPillars";
 
 /* ---------------- DATA ---------------- */
 
@@ -129,7 +130,7 @@ const TestimonialsSection = () => {
         viewport={{ once: true, amount: 0.2 }}
         className="max-w-6xl mx-auto px-4 relative z-10"
       >
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-10">
           {testimonials.map((item, i) => (
             <motion.div
               key={i}
@@ -187,39 +188,11 @@ const TestimonialsSection = () => {
         </div>
       </motion.div>
 
-      {/* NEWS SECTION */}
-      <div className="mt-20 flex justify-center px-4 relative z-10">
-        <div className="bg-[#71c1d1] rounded-3xl px-10 py-12 max-w-6xl text-center shadow-2xl overflow-hidden w-full">
-          <p className="text-black text-sm tracking-widest mb-3">
-            FEATURED IN THE NEWS
-          </p>
-
-          <h3 className="text-white text-xl sm:text-2xl font-semibold mb-8">
-            IPL Portfolio: Smallcase manager Nitya Shah expects 2 themes to
-            perform like Mayank Yadav
-          </h3>
-
-          {/* MARQUEE */}
-        <div className="flex flex-wrap justify-center gap-10">
-  {newsItems.map((item, i) => (
-    <motion.div
-      key={i}
-      whileHover={{ scale: 1.1 }}
-      className="w-20 h-20 bg-white/10 rounded-xl flex items-center justify-center"
-    >
-      <img
-        src={item.logo}
-        alt={item.name}
-        className="w-full h-full object-contain"
-      />
-    </motion.div>
-  ))}
-</div>
-
-        </div>
-      </div>
+   <InvestingPillars />
+     
     </section>
   );
 };
 
 export default TestimonialsSection;
+
