@@ -43,7 +43,7 @@ export default function PricingSection() {
     },
     {
       name: "Yearly",
-      price: "₹99,000+GST",
+      price: "₹150,000+GST",
       tag: "",
       features: [
         "In-depth deep research",

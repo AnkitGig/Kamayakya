@@ -64,7 +64,7 @@ export default function Home1() {
                 }
                 className="bg-[#71c1d1] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#094d43] transition"
               >
-              Apply for 7 days free demo
+              Apply for Free Trial
               </button>
             </div>
           </div>
